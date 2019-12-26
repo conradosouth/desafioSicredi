@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uwo-3W-SNB">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Loader View Controller-->
+        <scene sceneID="rc4-0f-4mC">
+            <objects>
+                <viewController id="uwo-3W-SNB" customClass="LoaderViewController" customModule="Glico_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L0Y-nJ-rcd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVF-zW-MKw" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="4dH-C4-mHN">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4dH-C4-mHN" firstAttribute="centerX" secondItem="L0Y-nJ-rcd" secondAttribute="centerX" id="Bfd-vL-Piu"/>
+                            <constraint firstItem="CVF-zW-MKw" firstAttribute="top" secondItem="L0Y-nJ-rcd" secondAttribute="top" id="BzQ-Dm-mdT"/>
+                            <constraint firstItem="4dH-C4-mHN" firstAttribute="centerY" secondItem="L0Y-nJ-rcd" secondAttribute="centerY" id="GJH-AB-HOk"/>
+                            <constraint firstAttribute="bottom" secondItem="CVF-zW-MKw" secondAttribute="bottom" id="dk5-mO-bXC"/>
+                            <constraint firstItem="CVF-zW-MKw" firstAttribute="trailing" secondItem="L0Y-nJ-rcd" secondAttribute="trailing" id="gWv-KZ-RlP"/>
+                            <constraint firstItem="CVF-zW-MKw" firstAttribute="leading" secondItem="L0Y-nJ-rcd" secondAttribute="leading" id="gmX-xi-ZLk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RPB-Wc-L3t"/>
+                    </view>
+                    <connections>
+                        <outlet property="loaderActivityIndicator" destination="4dH-C4-mHN" id="cfy-Hr-1hH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RAm-zk-foF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="209" y="212"/>
+        </scene>
+    </scenes>
+</document>
