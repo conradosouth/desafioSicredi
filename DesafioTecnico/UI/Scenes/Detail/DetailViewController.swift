@@ -20,7 +20,7 @@ class DetailViewController: BaseViewController<DetailSceneState, DetailViewModel
             contentView.isHidden = true
             if let checkedIn = sceneState?.checkedIn {
                 if !checkedIn {
-                    self.showErrorAlert(message: "Erro ao fazer check-in!")
+                    self.showErrorAlert(message: "Erro ao realizar check-in!")
                 }
             } else {
                 self.showErrorAlert(message: "Erro ao se comunicar com o servidor!")
@@ -33,6 +33,8 @@ class DetailViewController: BaseViewController<DetailSceneState, DetailViewModel
             if let checkedIn = sceneState?.checkedIn {
                 if checkedIn {
                     setCheckin(event: sceneState?.event)
+                } else {
+                    self.showErrorAlert(message: "Erro ao realizar check-in!")
                 }
             }
         }

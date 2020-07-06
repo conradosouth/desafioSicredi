@@ -6,5 +6,5 @@ protocol EventAPIProtocol {
     
     func getEvent(eventId: String, callback: @escaping (Error?, Event?) -> Void)
     
-    func postCheckin(eventId: String, callback: @escaping (Error?) -> Void)
+    func postCheckin(eventId: String, callback: @escaping (Error?, SimpleResponse?) -> Void)
 }

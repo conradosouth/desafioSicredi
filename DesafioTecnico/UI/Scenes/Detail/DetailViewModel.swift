@@ -29,10 +29,11 @@ class DetailViewModel: ViewModel<DetailSceneState> {
     
     func checkin(eventId: String) {
         DispatchQueue.global(qos: .background).async {
-            self.service.postCheckin(eventId: eventId) { [weak self] error in
+            self.service.postCheckin(eventId: eventId) { [weak self] error, response in
                 DispatchQueue.main.async {
                     guard let strongSelf = self else { return }
-                    strongSelf.updateData(error: error, checkedIn: error != nil ? false : true)
+                    let checkin = error != nil && response != nil
+                    strongSelf.updateData(error: error, checkedIn: checkin)
                 }
             }
         }

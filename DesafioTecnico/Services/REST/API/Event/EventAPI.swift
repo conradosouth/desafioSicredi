@@ -34,7 +34,7 @@ class EventAPI: RestAPI, EventAPIProtocol {
         }
     }
     
-    func postCheckin(eventId: String, callback: @escaping (Error?) -> Void) {
+    func postCheckin(eventId: String, callback: @escaping (Error?, SimpleResponse?) -> Void) {
         
         let parameters: [String: Any] = ["eventId": eventId,
                                          "name": "Conrado Werlang",
@@ -46,8 +46,7 @@ class EventAPI: RestAPI, EventAPIProtocol {
             parameters: parameters,
             returnType: SimpleResponse.self) { [weak self] error, response in
                 guard self != nil else { return }
-                print(response)
-                callback(error)
+                callback(error, response)
         }
     }
 }

@@ -16,6 +16,12 @@ struct Event: DataInit {
     var latitude: Double?
     var longitude: Double?
     
+    init(id: String? = nil,
+         title: String? = nil) {
+        self.id = id
+        self.title = title
+    }
+    
     init(data: [String : Any]) {
         
         self.id = data["id"] as? String

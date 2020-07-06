@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		0D8E53E6CBC27B383E6EC122 /* Pods_DesafioTecnico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFDE37381D7D81DF9088CC7 /* Pods_DesafioTecnico.framework */; };
 		1BCE115C316D01CB0F112BC1 /* Pods_DesafioTecnicoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E26FFA78B553414FD379DA /* Pods_DesafioTecnicoTests.framework */; };
-		8E45B0A13D1BEF2D5BEC6B4D /* Pods_DesafioTecnico_DesafioTecnicoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCAAFC1B59DBD9794D4061D /* Pods_DesafioTecnico_DesafioTecnicoUITests.framework */; };
+		6BCE24A424B370FE005A48A7 /* DetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCE24A324B370FE005A48A7 /* DetailViewModelTests.swift */; };
+		6BCE24A624B37425005A48A7 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCE24A524B37425005A48A7 /* CustomError.swift */; };
+		6BCE24AC24B37A39005A48A7 /* MockEventAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCE24AB24B37A39005A48A7 /* MockEventAPI.swift */; };
+		6BCE24AF24B3809E005A48A7 /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCE24AE24B3809E005A48A7 /* ListViewModelTests.swift */; };
 		9CED1C3A23A503A5001FD054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED1C3923A503A5001FD054 /* AppDelegate.swift */; };
 		9CED1C4323A503A8001FD054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CED1C4223A503A8001FD054 /* Assets.xcassets */; };
 		9CED1C4623A503A8001FD054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CED1C4423A503A8001FD054 /* LaunchScreen.storyboard */; };
-		9CED1C5123A503A8001FD054 /* DesafioTecnicoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED1C5023A503A8001FD054 /* DesafioTecnicoTests.swift */; };
-		9CED1C5C23A503A8001FD054 /* DesafioTecnicoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED1C5B23A503A8001FD054 /* DesafioTecnicoUITests.swift */; };
 		9CED1C7023A5A098001FD054 /* DataInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED1C6E23A5A098001FD054 /* DataInit.swift */; };
 		9CED1C7123A5A098001FD054 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED1C6F23A5A098001FD054 /* DataParser.swift */; };
 		9CED1C7423A5A0C9001FD054 /* RestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED1C7323A5A0C9001FD054 /* RestMethod.swift */; };
@@ -62,13 +63,6 @@
 			remoteGlobalIDString = 9CED1C3523A503A5001FD054;
 			remoteInfo = DesafioTecnico;
 		};
-		9CED1C5823A503A8001FD054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9CED1C2E23A503A5001FD054 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9CED1C3523A503A5001FD054;
-			remoteInfo = DesafioTecnico;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +71,10 @@
 		5816A89A6FEA3F20F61B2BF4 /* Pods-DesafioTecnico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioTecnico.release.xcconfig"; path = "Target Support Files/Pods-DesafioTecnico/Pods-DesafioTecnico.release.xcconfig"; sourceTree = "<group>"; };
 		5CCAAFC1B59DBD9794D4061D /* Pods_DesafioTecnico_DesafioTecnicoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioTecnico_DesafioTecnicoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68137A6D436B02BF54CC7F24 /* Pods-DesafioTecnicoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioTecnicoTests.release.xcconfig"; path = "Target Support Files/Pods-DesafioTecnicoTests/Pods-DesafioTecnicoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BCE24A324B370FE005A48A7 /* DetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTests.swift; sourceTree = "<group>"; };
+		6BCE24A524B37425005A48A7 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		6BCE24AB24B37A39005A48A7 /* MockEventAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEventAPI.swift; sourceTree = "<group>"; };
+		6BCE24AE24B3809E005A48A7 /* ListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
 		70E26FFA78B553414FD379DA /* Pods_DesafioTecnicoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioTecnicoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CED1C3623A503A5001FD054 /* DesafioTecnico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioTecnico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CED1C3923A503A5001FD054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,10 +82,7 @@
 		9CED1C4523A503A8001FD054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CED1C4723A503A8001FD054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CED1C4C23A503A8001FD054 /* DesafioTecnicoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioTecnicoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CED1C5023A503A8001FD054 /* DesafioTecnicoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioTecnicoTests.swift; sourceTree = "<group>"; };
 		9CED1C5223A503A8001FD054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CED1C5723A503A8001FD054 /* DesafioTecnicoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioTecnicoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CED1C5B23A503A8001FD054 /* DesafioTecnicoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioTecnicoUITests.swift; sourceTree = "<group>"; };
 		9CED1C5D23A503A8001FD054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CED1C6E23A5A098001FD054 /* DataInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInit.swift; sourceTree = "<group>"; };
 		9CED1C6F23A5A098001FD054 /* DataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
@@ -148,17 +143,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CED1C5423A503A8001FD054 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8E45B0A13D1BEF2D5BEC6B4D /* Pods_DesafioTecnico_DesafioTecnicoUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BCE24A024B370C2005A48A7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6BCE24A124B370C8005A48A7 /* Scenes */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6BCE24A124B370C8005A48A7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6BCE24AD24B3808D005A48A7 /* List */,
+				6BCE24A224B370D6005A48A7 /* Detail */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6BCE24A224B370D6005A48A7 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				6BCE24A324B370FE005A48A7 /* DetailViewModelTests.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		6BCE24A724B37A08005A48A7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6BCE24A824B37A0D005A48A7 /* REST */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6BCE24A824B37A0D005A48A7 /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				6BCE24A924B37A22005A48A7 /* API */,
+			);
+			path = REST;
+			sourceTree = "<group>";
+		};
+		6BCE24A924B37A22005A48A7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6BCE24AA24B37A29005A48A7 /* Event */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6BCE24AA24B37A29005A48A7 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				6BCE24AB24B37A39005A48A7 /* MockEventAPI.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		6BCE24AD24B3808D005A48A7 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				6BCE24AE24B3809E005A48A7 /* ListViewModelTests.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		7F3B4418816FB1A729BA67B3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,7 +241,6 @@
 			children = (
 				9CED1C3623A503A5001FD054 /* DesafioTecnico.app */,
 				9CED1C4C23A503A8001FD054 /* DesafioTecnicoTests.xctest */,
-				9CED1C5723A503A8001FD054 /* DesafioTecnicoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,7 +259,8 @@
 		9CED1C4F23A503A8001FD054 /* DesafioTecnicoTests */ = {
 			isa = PBXGroup;
 			children = (
-				9CED1C5023A503A8001FD054 /* DesafioTecnicoTests.swift */,
+				6BCE24A724B37A08005A48A7 /* Services */,
+				6BCE24A024B370C2005A48A7 /* UI */,
 				9CED1C5223A503A8001FD054 /* Info.plist */,
 			);
 			path = DesafioTecnicoTests;
@@ -217,7 +269,6 @@
 		9CED1C5A23A503A8001FD054 /* DesafioTecnicoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9CED1C5B23A503A8001FD054 /* DesafioTecnicoUITests.swift */,
 				9CED1C5D23A503A8001FD054 /* Info.plist */,
 			);
 			path = DesafioTecnicoUITests;
@@ -283,6 +334,7 @@
 			children = (
 				9CED1CE923A5CA99001FD054 /* SimpleResponse.swift */,
 				9CED1C7323A5A0C9001FD054 /* RestMethod.swift */,
+				6BCE24A524B37425005A48A7 /* CustomError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -455,26 +507,6 @@
 			productReference = 9CED1C4C23A503A8001FD054 /* DesafioTecnicoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9CED1C5623A503A8001FD054 /* DesafioTecnicoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9CED1C6623A503A8001FD054 /* Build configuration list for PBXNativeTarget "DesafioTecnicoUITests" */;
-			buildPhases = (
-				BEE5E2FC812A459AF1467DF9 /* [CP] Check Pods Manifest.lock */,
-				9CED1C5323A503A8001FD054 /* Sources */,
-				9CED1C5423A503A8001FD054 /* Frameworks */,
-				9CED1C5523A503A8001FD054 /* Resources */,
-				102C17E3D3CDD0FA477A92AE /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9CED1C5923A503A8001FD054 /* PBXTargetDependency */,
-			);
-			name = DesafioTecnicoUITests;
-			productName = DesafioTecnicoUITests;
-			productReference = 9CED1C5723A503A8001FD054 /* DesafioTecnicoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -489,10 +521,6 @@
 						CreatedOnToolsVersion = 11.3;
 					};
 					9CED1C4B23A503A8001FD054 = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 9CED1C3523A503A5001FD054;
-					};
-					9CED1C5623A503A8001FD054 = {
 						CreatedOnToolsVersion = 11.3;
 						TestTargetID = 9CED1C3523A503A5001FD054;
 					};
@@ -513,7 +541,6 @@
 			targets = (
 				9CED1C3523A503A5001FD054 /* DesafioTecnico */,
 				9CED1C4B23A503A8001FD054 /* DesafioTecnicoTests */,
-				9CED1C5623A503A8001FD054 /* DesafioTecnicoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -532,13 +559,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9CED1C4A23A503A8001FD054 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9CED1C5523A503A8001FD054 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -570,23 +590,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		102C17E3D3CDD0FA477A92AE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DesafioTecnico-DesafioTecnicoUITests/Pods-DesafioTecnico-DesafioTecnicoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DesafioTecnico-DesafioTecnicoUITests/Pods-DesafioTecnico-DesafioTecnicoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioTecnico-DesafioTecnicoUITests/Pods-DesafioTecnico-DesafioTecnicoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		589870D8DDDD22AF5451B364 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -603,28 +606,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DesafioTecnicoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BEE5E2FC812A459AF1467DF9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DesafioTecnico-DesafioTecnicoUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -660,6 +641,7 @@
 				9CED1CD423A5AFE6001FD054 /* DetailSceneState.swift in Sources */,
 				9CED1CBF23A5AEE7001FD054 /* LoaderViewRouterPath.swift in Sources */,
 				9CED1C9523A5A217001FD054 /* RouterProtocol.swift in Sources */,
+				6BCE24A624B37425005A48A7 /* CustomError.swift in Sources */,
 				9CED1C7123A5A098001FD054 /* DataParser.swift in Sources */,
 				9CED1CCE23A5AFC7001FD054 /* DetailViewController.swift in Sources */,
 				9CED1CEA23A5CA99001FD054 /* SimpleResponse.swift in Sources */,
@@ -697,15 +679,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CED1C5123A503A8001FD054 /* DesafioTecnicoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9CED1C5323A503A8001FD054 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9CED1C5C23A503A8001FD054 /* DesafioTecnicoUITests.swift in Sources */,
+				6BCE24AC24B37A39005A48A7 /* MockEventAPI.swift in Sources */,
+				6BCE24A424B370FE005A48A7 /* DetailViewModelTests.swift in Sources */,
+				6BCE24AF24B3809E005A48A7 /* ListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,11 +692,6 @@
 			isa = PBXTargetDependency;
 			target = 9CED1C3523A503A5001FD054 /* DesafioTecnico */;
 			targetProxy = 9CED1C4D23A503A8001FD054 /* PBXContainerItemProxy */;
-		};
-		9CED1C5923A503A8001FD054 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9CED1C3523A503A5001FD054 /* DesafioTecnico */;
-			targetProxy = 9CED1C5823A503A8001FD054 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -930,46 +901,6 @@
 			};
 			name = Release;
 		};
-		9CED1C6723A503A8001FD054 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2A0CB601B471DFB8277D9E5 /* Pods-DesafioTecnico-DesafioTecnicoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DesafioTecnicoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.conradowerlang.DesafioTecnicoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DesafioTecnico;
-			};
-			name = Debug;
-		};
-		9CED1C6823A503A8001FD054 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54795BB05357EF26A44095CD /* Pods-DesafioTecnico-DesafioTecnicoUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DesafioTecnicoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.conradowerlang.DesafioTecnicoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DesafioTecnico;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -996,15 +927,6 @@
 			buildConfigurations = (
 				9CED1C6423A503A8001FD054 /* Debug */,
 				9CED1C6523A503A8001FD054 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9CED1C6623A503A8001FD054 /* Build configuration list for PBXNativeTarget "DesafioTecnicoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9CED1C6723A503A8001FD054 /* Debug */,
-				9CED1C6823A503A8001FD054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
